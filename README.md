@@ -55,9 +55,9 @@ Modelo supervisionado para detecção de transações suspeitas em blockchain ut
 ## 📫 Contato
 
 **Welington Nogueira**  
-📧 *seu email*  
-🔗 LinkedIn  
-🔗 GitHub  
+📧 *nogueiraswns@gmail.com*  
+🔗 linkedin.com/in/welington-n-99484571/  
+🔗 github.com/WeliNog-Est
 
 ---
 
