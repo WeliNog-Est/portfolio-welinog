@@ -1,0 +1,31 @@
+1.  ID: Identificador único do cliente.
+2. Ano_Nascimento: Ano de nascimento do cliente.
+3. Educacao: Nível de educação do cliente (ex.: Graduação, PhD).
+4. Estado_Civil: Estado civil do cliente (ex.: Casado, Solteiro).
+5. Renda: Renda anual do cliente em reais.
+6. Criancas_Em_Casa: Número de crianças pequenas na casa do cliente.
+7. Adolescentes_Em_Casa: Número de adolescentes na casa do cliente.
+8. Data_Cadastro_Cliente: Data em que o cliente foi cadastrado na empresa.
+9. Gasto_Vinhos: Total gasto em vinhos no último ano.
+10. Gasto_Frutas: Total gasto em frutas no último ano.
+11. Gasto_Carnes: Total gasto em carnes no último ano.
+12. Gasto_Peixes: Total gasto em peixes no último ano.
+13. Gasto_Doces: Total gasto em doces no último ano.
+14. Gasto_Outros: Total gasto em outros produtos no último ano.
+15. Num_Compras_Desconto: Número de compras feitas com desconto.
+16. Num_Compras_Web: Número de compras feitas através da web.
+17. Num_Compras_Catalogo: Número de compras feitas usando um catálogo.
+18. Num_Compras_Loja: Número de compras feitas diretamente na loja.
+19. Num_Visitas_Web_Mes: Número de visitas ao site da empresa por mês.
+20. Aceitou_Campanha_1: Indica se o cliente aceitou a oferta na primeira campanha 
+(0 = Não, 1 = Sim).
+21. Aceitou_Campanha_2: Indica se o cliente aceitou a oferta na segunda campanha 
+(0 = Não, 1 = Sim).
+22. Aceitou_Campanha_3: Indica se o cliente aceitou a oferta na terceira campanha 
+(0 = Não, 1 = Sim).
+23. Aceitou_Campanha_4: Indica se o cliente aceitou a oferta na quarta campanha (0 
+= Não, 1 = Sim).
+24. Aceitou_Campanha_5: Indica se o cliente aceitou a oferta na quinta campanha (0 
+= Não, 1 = Sim).
+25. Aceitou_Campanha_6: Indica se o cliente aceitou a oferta na sexta campanha (0 = 
+Não, 1 = Sim).
