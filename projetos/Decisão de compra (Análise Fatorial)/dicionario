@@ -1,0 +1,5 @@
+1. frequencia_compras: Quantidade de vezes que o cliente compra por mês.
+2. valor_medio: Valor médio gasto por compra.
+3. categoria_mais_comprada: Valor de 1 a 10 indicando a categoria de produto.
+4. tempo_loja: Tempo médio (em minutos) que o cliente passa na loja por visita.
+5. uso_app: Pontuação (de 1 a 10) indicando a frequência de uso do aplicativo da loja.
