@@ -14,26 +14,26 @@ Clique nos projetos abaixo para visualizar cada notebook.
 
 ## 📂 **Projetos**
 
-- **Decisão de Compra com Análise Fatorial**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/decisao_analise_fatorial.ipynb)
+- **Decisão de Compra (Análise Fatorial)**  
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb)
 
 - **Análise RFM (Marketing)**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/analise_rfm.ipynb)
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb)
 
-- **Grupos de Clientes com Similaridade – K-Means**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/grupos_kmeans.ipynb)
+- **Agrupamento de Clientes (K-Means)**  
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb)
 
 - **Classificação – Ocorrências Aeronáuticas**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/classificacao_ocorrencia_aeronautica.ipynb)
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb)
 
-- **EDA e Visualização Multivariada**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/eda_multivariada.ipynb)
+- **EDA de um Banco Multivariada**  
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb)
 
-- **Regressão Linear Múltipla**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/regressao_linear_multipla.ipynb)
+- **Expectativa de Vida (Regressão Linear Múltipla)**  
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb)
 
-- **Fraudes com Criptomoedas – XGBoost**  
-  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/fraudes_cripto_xgboost.ipynb)
+- **Fraudes com Criptomoedas (XGBoost)**  
+  👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb)
 
 📫 **Contato**
 Welington Nogueira
@@ -44,6 +44,7 @@ Welington Nogueira
 ---
 
 Obrigado pela visita!
+
 
 
 
