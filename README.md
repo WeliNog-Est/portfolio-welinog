@@ -1,4 +1,4 @@
-# Portfólio de Data Science – Welington Nogueira
+# Portfólio de Data Science (Welington Nogueira)
 
 Bem-vindo ao meu portfólio profissional de Ciência de Dados.  
 Aqui apresento projetos que aplicam Estatística, Machine Learning, Análise Multivariada e Business Analytics com foco em **decisão analítica, modelagem preditiva e clusterização**.
