@@ -3,7 +3,8 @@ layout: default
 title: Portfólio de Data Science
 ---
 
-# 👋 Bem-vindo ao meu Portfólio de Data Science - Welington Nogueira
+# 👋 Bem-vindo ao meu Portfólio de Data Science 
+# (Welington Nogueira)
 
 Este site reúne meus principais projetos desenvolvidos com Python, Machine Learning e Estatística Aplicada, apresentados em formato de notebooks interativos.
 
@@ -43,6 +44,7 @@ Welington Nogueira
 ---
 
 Obrigado pela visita!
+
 
 
 
