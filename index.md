@@ -3,7 +3,7 @@ layout: default
 title: Portfólio de Data Science
 ---
 
-# 👋 Bem-vindo ao meu Portfólio de Data Science
+# 👋 Bem-vindo ao meu Portfólio de Data Science - Welington Nogueira
 
 Este site reúne meus principais projetos desenvolvidos com Python, Machine Learning e Estatística Aplicada, apresentados em formato de notebooks interativos.
 
@@ -34,8 +34,15 @@ Clique nos projetos abaixo para visualizar cada notebook.
 - **Fraudes com Criptomoedas – XGBoost**  
   👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/fraudes_cripto_xgboost.ipynb)
 
+📫 **Contato**
+Welington Nogueira
+📧 nogueiraswns@gmail.com
+🔗 linkedin.com/in/welington-n-99484571/
+🔗 github.com/WeliNog-Est
+
 ---
 
 Obrigado pela visita!
+
 
 
