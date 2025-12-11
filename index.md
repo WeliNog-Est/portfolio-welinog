@@ -22,10 +22,10 @@ Clique nos projetos abaixo para visualizar cada notebook.
 - **Agrupamento de Clientes (K-Means)**  
   👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb)
 
-- **Classificação – Ocorrências Aeronáuticas**  
+- **Ocorrências Aeronáuticas (Modelo de Classificação)**  
   👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb)
 
-- **EDA de um Banco Multivariada**  
+- **EDA (Abordagem Multivariada)**  
   👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb)
 
 - **Expectativa de Vida (Regressão Linear Múltipla)**  
@@ -44,6 +44,7 @@ Clique nos projetos abaixo para visualizar cada notebook.
 ---
 
 Obrigado pela visita!
+
 
 
 
