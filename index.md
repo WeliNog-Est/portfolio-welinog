@@ -36,14 +36,15 @@ Clique nos projetos abaixo para visualizar cada notebook.
   👉 [Abrir Notebook](https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/blob/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb)
 
 📫 **Contato**
-Welington Nogueira
-📧 nogueiraswns@gmail.com
-🔗 linkedin.com/in/welington-n-99484571/
-🔗 github.com/WeliNog-Est
+*Welington Nogueira
+*📧 nogueiraswns@gmail.com
+*🔗 linkedin.com/in/welington-n-99484571/
+*🔗 github.com/WeliNog-Est
 
 ---
 
 Obrigado pela visita!
+
 
 
 
