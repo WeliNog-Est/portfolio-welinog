@@ -5,119 +5,142 @@ subtitle: Portfólio de Projetos por Welington Nogueira
 ---
 
 <style>
-html, body,
-.wrapper, .site, .site-wrapper, .page, .page-wrapper,
-.page-header, .post-header, .post, .post-content,
-.container, .content, .main, .default, .home {
-    background: #f7f7f7 !important;
-    background-color: #f7f7f7 !important;
-}
 
-.wrapper > * , .site > * , .page-wrapper > * {
-    background: transparent !important;
-}
-
-.page-header, 
-.post-header h1, 
+/* REMOVER TÍTULO PADRÃO DO TEMA MINIMA */
+.page-header,
+.post-header,
+.post-header h1,
 .page-title {
     display: none !important;
 }
 
-/* Estilo geral */
+/* FORÇAR FUNDO EM TODA A PÁGINA */
+html, body {
+    background: #f7f7f7 !important;
+    background-color: #f7f7f7 !important;
+}
+
+/* REMOVER FUNDOS DO TEMA QUE SOBRESCREVEM O BODY */
+.wrapper,
+.site,
+.site-header,
+.site-footer,
+.site-nav,
+.page-content,
+.page,
+.home,
+.page-wrapper,
+div {
+    background: transparent !important;
+}
+
+/* GARANTIR QUE NENHUM ELEMENTO HERDE FUNDO BRANCO */
+* {
+    background-color: transparent !important;
+}
+
+/* REAPLICAR FUNDOS ESPECÍFICOS DO SEU DESIGN */
+.project-card,
+.skill-badge {
+    background: #ffffff !important;
+}
+
+.project-card:hover {
+    background: #fafafa !important;
+}
+
+/* ESTILO GERAL */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 20px;
-    /* background definido acima globalmente */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    line-height: 1.6 !important;
+    margin: 0 auto !important;
+    max-width: 900px !important;
+    padding: 20px !important;
 }
 
 /* HEADER */
 .header-container {
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 35px;
+    text-align: left !important;
+    margin-top: 10px !important;
+    margin-bottom: 35px !important;
 }
 
 .header-container h1 {
-    font-size: 2.6rem;
-    font-weight: 700;
-    margin-bottom: 0;
+    font-size: 2.6rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
 }
 
 .header-container h2 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 8px;
-    color: #777;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    margin-top: 8px !important;
+    color: #777 !important;
 }
 
-/* Seção Sobre Mim */
+/* TÍTULOS DE SEÇÃO */
 .section-title {
-    font-size: 1.8rem;
-    margin-top: 40px;
-    border-bottom: 2px solid #eaeaea;
-    padding-bottom: 4px;
+    font-size: 1.8rem !important;
+    margin-top: 40px !important;
+    border-bottom: 2px solid #eaeaea !important;
+    padding-bottom: 4px !important;
 }
 
-/* Skills */
+/* SKILLS */
 .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 10px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    margin-top: 10px !important;
 }
 
 .skill-badge {
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    gap: 8px;
-    border: 1px solid #ddd;
+    display: flex !important;
+    align-items: center !important;
+    padding: 8px 12px !important;
+    border-radius: 8px !important;
+    font-size: 0.95rem !important;
+    gap: 8px !important;
+    border: 1px solid #ddd !important;
 }
 
 .skill-badge img {
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
 }
 
-/* Cards de Projetos */
+/* CARDS DE PROJETOS */
 .project-card {
-    background: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    padding: 18px;
-    margin-top: 18px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 10px !important;
+    padding: 18px !important;
+    margin-top: 18px !important;
+    transition: 0.2s ease-in-out !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
 }
 
 .project-card:hover {
-    background: #fafafa;
-    transform: scale(1.01);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+    transform: scale(1.01) !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10) !important;
 }
 
 .project-title {
-    font-size: 1.3rem;
-    margin-bottom: 6px;
+    font-size: 1.3rem !important;
+    margin-bottom: 6px !important;
 }
 
 .project-tech {
-    font-weight: 600;
-    color: #444;
+    font-weight: 600 !important;
+    color: #444 !important;
 }
 
 .project-link {
-    display: inline-block;
-    margin-top: 8px;
-    color: #0366d6;
-    font-weight: bold;
+    display: inline-block !important;
+    margin-top: 8px !important;
+    color: #0366d6 !important;
+    font-weight: bold !important;
 }
+
 </style>
 
 <!-- HEADER FINAL ESTILIZADO -->
@@ -222,6 +245,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
