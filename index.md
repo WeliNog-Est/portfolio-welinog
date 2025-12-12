@@ -242,9 +242,10 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 
 # 📫 Contato
 
-📧 **nogueiraswns@gmail.com**  
-🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
-💻 **GitHub:** https://github.com/WeliNog-Est  
+📧 <strong>nogueiraswns@gmail.com</strong><br>
+🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
+💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
