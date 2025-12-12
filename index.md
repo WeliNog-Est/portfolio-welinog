@@ -5,9 +5,11 @@ subtitle: Portfólio de Projetos por Welington Nogueira
 ---
 
 <style>
-/* REMOVER O TÍTULO AUTOMÁTICO DO TEMA */
-h1.post-title {
-    display: none;
+/* Remover título padrão do tema Minima */
+.page-header, 
+.post-header h1, 
+.page-title {
+    display: none !important;
 }
     
 /* Estilo geral */
@@ -202,6 +204,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
