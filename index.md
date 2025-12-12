@@ -5,13 +5,24 @@ subtitle: Portfólio de Projetos por Welington Nogueira
 ---
 
 <style>
-/* Remover título padrão do tema Minima */
+html, body,
+.wrapper, .site, .site-wrapper, .page, .page-wrapper,
+.page-header, .post-header, .post, .post-content,
+.container, .content, .main, .default, .home {
+    background: #f7f7f7 !important;
+    background-color: #f7f7f7 !important;
+}
+
+.wrapper > * , .site > * , .page-wrapper > * {
+    background: transparent !important;
+}
+
 .page-header, 
 .post-header h1, 
 .page-title {
     display: none !important;
 }
-    
+
 /* Estilo geral */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -19,16 +30,7 @@ body {
     margin: 0 auto;
     max-width: 900px;
     padding: 20px;
-    background: #f7f7f7; /* fundo claro */
-}
-
-.wrapper {
-    background: #f7f7f7 !important;
-    padding: 20px;
-}
-
-html {
-    background: #f7f7f7 !important;
+    /* background definido acima globalmente */
 }
 
 /* HEADER */
@@ -220,6 +222,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
