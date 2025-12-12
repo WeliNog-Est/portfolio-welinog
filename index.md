@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Portfólio de Data Science — Welington Nogueira
+title: Ciência de Dados
+subtitle: Portfólio de Projetos por Welington Nogueira
 ---
 
 <style>
@@ -88,13 +89,6 @@ header h2 {
     font-weight: bold;
 }
 </style>
-
-
-<header>
-  <h1>Ciência de Dados</h1>
-  <h3>PORTFÓLIO DE PROJETOS POR <strong>WELINGTON NOGUEIRA</strong></h3>
-</header>
-
 
 <br>
 
@@ -191,6 +185,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
