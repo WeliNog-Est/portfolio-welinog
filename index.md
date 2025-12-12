@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
     max-width: 900px;
     padding: 20px;
+    background: #f7f7f7; /* fundo claro */
 }
 
 /* HEADER */
@@ -60,7 +61,7 @@ body {
 .skill-badge {
     display: flex;
     align-items: center;
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 8px 12px;
     border-radius: 8px;
     font-size: 0.95rem;
@@ -75,16 +76,19 @@ body {
 
 /* Cards de Projetos */
 .project-card {
-    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 18px;
     margin-top: 18px;
     transition: 0.2s ease-in-out;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 .project-card:hover {
     background: #fafafa;
     transform: scale(1.01);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
 }
 
 .project-title {
@@ -204,6 +208,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
