@@ -22,6 +22,15 @@ body {
     background: #f7f7f7; /* fundo claro */
 }
 
+.wrapper {
+    background: #f7f7f7 !important;
+    padding: 20px;
+}
+
+html {
+    background: #f7f7f7 !important;
+}
+
 /* HEADER */
 .header-container {
     text-align: left;
@@ -117,7 +126,7 @@ body {
 
 # 🧑‍💻 Sobre mim
 
-Meu nome é Welington Nogueira, sou graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Minha formação une rigor estatístico, pensamento analítico e a aplicação de técnicas modernas de machine learning voltadas à solução de problemas de negócio.
+Meu nome é Welington Nogueira, sou graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Minha formação une rigor estatístico, pensamento analítico e aplicação de técnicas modernas de machine learning voltadas à solução de problemas de negócio.
 
 Atuo como Cientista de Dados, com experiência sólida nos setores público e de saúde, incluindo projetos estratégicos durante minha atuação na Força Aérea Brasileira. Nesse período, trabalhei com modelagem preditiva, inteligência analítica, governança de dados, análise multivariada, criação de KPIs institucionais e desenvolvimento de soluções que fortalecem a tomada de decisão no nível tático e estratégico.
 
@@ -211,6 +220,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
