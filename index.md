@@ -109,9 +109,9 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 
   <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">SQL</div>
 
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg">AWS</div>
+  <div class="skill-badge"><img src="https://img.icons8.com/color/48/amazon-web-services.png">AWS</div>
 
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg">Power BI</div>
+  <div class="skill-badge"><img src="https://img.icons8.com/color/48/power-bi.png">Power BI</div>
 
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/combo-chart.png">Métricas de Negócio</div>
 
@@ -185,6 +185,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
