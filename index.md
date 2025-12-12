@@ -117,8 +117,11 @@ body {
 
 # 🧑‍💻 Sobre mim
 
-Sou Cientista de Dados com experiência sólida em machine learning, modelagem preditiva, governança de dados, criação de KPIs estratégicos e inteligência analítica. Ao longo da minha carreira transformei dados complexos em soluções que aumentam eficiência, padronizam informações e apoiam decisões de alto impacto institucional.
-Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados em Python, R e SQL, além de liderar iniciativas de governança que elevaram a confiabilidade das informações corporativas. Minha atuação combina rigor técnico, visão de negócio e comunicação clara, facilitando a ponte entre equipes técnicas e gestores.
+Meu nome é Welington Nogueira, sou graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Minha formação une rigor estatístico, pensamento analítico e a aplicação de técnicas modernas de machine learning voltadas à solução de problemas de negócio.
+
+Atuo como Cientista de Dados, com experiência sólida nos setores público e de saúde, incluindo projetos estratégicos durante minha atuação na Força Aérea Brasileira. Nesse período, trabalhei com modelagem preditiva, inteligência analítica, governança de dados, análise multivariada, criação de KPIs institucionais e desenvolvimento de soluções que fortalecem a tomada de decisão no nível tático e estratégico.
+
+Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines automatizados em Python, R e SQL, além de estruturar processos que aumentaram eficiência operacional e confiabilidade informacional. Minha atuação integra domínio técnico, visão de negócio e comunicação clara, sempre com foco em transformar dados complexos em soluções práticas, interpretáveis e de impacto real, facilitando a ponte entre equipes técnicas e gestores.
 
 ---
 
@@ -208,6 +211,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
