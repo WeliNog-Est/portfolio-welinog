@@ -5,6 +5,11 @@ subtitle: Portfólio de Projetos por Welington Nogueira
 ---
 
 <style>
+/* REMOVER O TÍTULO AUTOMÁTICO DO TEMA */
+h1.post-title {
+    display: none;
+}
+    
 /* Estilo geral */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -14,7 +19,7 @@ body {
     padding: 20px;
 }
 
-/* HEADER — estilo igual ao modelo */
+/* HEADER */
 .header-container {
     text-align: left;
     margin-top: 10px;
@@ -197,6 +202,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
