@@ -14,16 +14,24 @@ body {
     padding: 20px;
 }
 
-/* Título principal */
-header h1 {
-    font-size: 2.4rem;
+/* HEADER — estilo igual ao modelo */
+.header-container {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.header-container h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
-header h2 {
-    margin-top: 5px;
+.header-container h2 {
+    font-size: 1.2rem;
     font-weight: 400;
-    color: #555;
+    margin-top: 8px;
+    color: #777;
 }
 
 /* Seção Sobre Mim */
@@ -90,7 +98,11 @@ header h2 {
 }
 </style>
 
-<br>
+<!-- HEADER FINAL ESTILIZADO -->
+<div class="header-container">
+  <h1>{{ page.title }}</h1>
+  <h2>{{ page.subtitle }}</h2>
+</div>
 
 # 🧑‍💻 Sobre mim
 
@@ -185,6 +197,7 @@ Desenvolvi modelos estatísticos, dashboards executivos, processos automatizados
 📧 **nogueiraswns@gmail.com**  
 🔗 **LinkedIn:** https://linkedin.com/in/welington-n-99484571  
 💻 **GitHub:** https://github.com/WeliNog-Est  
+
 
 
 
