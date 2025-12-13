@@ -255,6 +255,25 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
   </a>
 </div>
 
+<div class="project-card">
+  <div class="project-title">🩺 Diabetes e Fatores Associados — PNS</div>
+  <div class="project-tech">
+    R · R Markdown · Estatística · Regressão · Saúde Pública
+  </div>
+  <p>
+    Análise dos fatores sociodemográficos, comportamentais e clínicos associados
+    ao diagnóstico de diabetes mellitus no Brasil, utilizando dados da
+    Pesquisa Nacional de Saúde (PNS). O estudo explora associações estatísticas
+    e modelos explicativos para apoiar políticas públicas em saúde.
+  </p>
+  <a class="project-link"
+     href="https://welinog-est.github.io/portfolio-welinog/consultoria/PNS_diabetes/"
+     target="_blank">
+     Abrir visualização →
+  </a>
+</div>
+
+
 ---
 
 # 📫 Contato
@@ -262,6 +281,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
