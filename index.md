@@ -177,12 +177,6 @@ h1, h2, h3 {
   </p>
 </div>
 
-<!-- ================= HEADER ================= -->
-<div class="header-container">
-  <h1>{{ page.title }}</h1>
-  <h2>{{ page.subtitle }}</h2>
-</div>
-
 # 🧑‍💻 Sobre mim
 
 Sou Cientista de Dados, graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA.  
@@ -193,14 +187,57 @@ Atuo com estatística aplicada, machine learning, governança de dados e indicad
 # ⚙️ Skills
 
 <div class="skills-container">
-  <div class="skill-badge">Python</div>
-  <div class="skill-badge">R</div>
-  <div class="skill-badge">SQL</div>
-  <div class="skill-badge">AWS</div>
-  <div class="skill-badge">Power BI</div>
-  <div class="skill-badge">Machine Learning</div>
-  <div class="skill-badge">Estatística Aplicada</div>
-  <div class="skill-badge">Métricas de Negócio</div>
+
+  <div class="skill-badge">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+    Python
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg">
+    R
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+    SQL
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/color/48/amazon-web-services.png">
+    AWS
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/color/48/power-bi.png">
+    Power BI
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg">
+    Machine Learning
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/ios-filled/50/000000/combo-chart.png">
+    Métricas de Negócio
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/ios-filled/50/000000/communication.png">
+    Comunicação
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/ios-filled/50/000000/idea.png">
+    Criatividade
+  </div>
+
+  <div class="skill-badge">
+    <img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png">
+    Trabalho em equipe
+  </div>
+
 </div>
 
 ---
@@ -330,6 +367,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
