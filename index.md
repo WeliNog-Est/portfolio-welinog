@@ -144,9 +144,9 @@ h1, h2, h3 {
 
 # 🧑‍💻 Sobre mim
 
-Sou **Cientista de Dados**, graduado em **Estatística pela Universidade Federal Fluminense (UFF)** e pós-graduado em **Análise de Dados, Data Mining e Inteligência Artificial pela FIA**. Atuo há anos com análise estatística, modelagem preditiva e inteligência analítica aplicadas a problemas reais.
+Sou Cientista de Dados, graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Atuo há anos com análise estatística, modelagem preditiva e inteligência analítica aplicadas a problemas reais.
 
-Tenho experiência sólida nos setores **público e de saúde**, incluindo projetos estratégicos desenvolvidos na **Força Aérea Brasileira**, com foco em governança de dados, indicadores institucionais, epidemiologia e apoio à tomada de decisão.
+Tenho experiência sólida nos setores público e de saúde, incluindo projetos estratégicos desenvolvidos na Força Aérea Brasileira, com foco em governança de dados, indicadores institucionais, epidemiologia e apoio à tomada de decisão.
 
 ---
 
@@ -163,6 +163,59 @@ Tenho experiência sólida nos setores **público e de saúde**, incluindo proje
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/communication.png">Comunicação</div>
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/idea.png">Criatividade</div>
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png">Trabalho em equipe</div>
+</div>
+
+---
+
+# 📂 Projetos
+
+<div class="project-card">
+  <div class="project-title">🔍 Decisão de Compra (Análise Fatorial)</div>
+  <div class="project-tech">PCA · Análise Fatorial</div>
+  <p>Identificação de fatores latentes que influenciam decisões de compra.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">🎯 Análise RFM</div>
+  <div class="project-tech">Marketing Analytics</div>
+  <p>Segmentação estratégica de clientes para retenção.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">👥 Clusterização de Clientes</div>
+  <div class="project-tech">K-Means</div>
+  <p>Formação de grupos homogêneos de clientes.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">✈️ Ocorrências Aeronáuticas</div>
+  <div class="project-tech">Regressão Logística</div>
+  <p>Classificação de severidade de ocorrências.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">📊 EDA Multivariada</div>
+  <div class="project-tech">Análise Exploratória</div>
+  <p>Exploração de padrões multivariados.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">🌍 Expectativa de Vida</div>
+  <div class="project-tech">Regressão Linear Múltipla</div>
+  <p>Modelagem de fatores socioeconômicos.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb">Abrir projeto →</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">🛡️ Fraudes com Criptomoedas</div>
+  <div class="project-tech">XGBoost</div>
+  <p>Detecção de fraudes em transações financeiras.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb">Abrir projeto →</a>
 </div>
 
 ---
@@ -204,6 +257,7 @@ Tenho experiência sólida nos setores **público e de saúde**, incluindo proje
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
