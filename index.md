@@ -189,7 +189,7 @@ h1, h2, h3 {
 <div class="hero">
   <h1>Cientista de Dados</h1>
   <p>
-    Estatística • Machine Learning • Saúde Pública • Analytics Estratégico<br>
+    Cientista de Dados | Machine Learning & Modelagem Preditiva | Python • SQL • Governança de Dados • Power BI<br>
     Transformo dados complexos em decisões claras e acionáveis.
   </p>
 </div>
@@ -389,6 +389,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
