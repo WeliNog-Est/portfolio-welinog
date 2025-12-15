@@ -14,13 +14,13 @@ subtitle: Portfólio de Projetos por Welington Nogueira
     display: none !important;
 }
 
-/* FORÇAR FUNDO EM TODA A PÁGINA */
+/* FUNDO GLOBAL */
 html, body {
     background: #f7f7f7 !important;
     background-color: #f7f7f7 !important;
 }
 
-/* REMOVER FUNDOS DO TEMA QUE SOBRESCREVEM O BODY */
+/* LIMPAR FUNDOS DO TEMA */
 .wrapper,
 .site,
 .site-header,
@@ -29,61 +29,45 @@ html, body {
 .page-content,
 .page,
 .home,
-.page-wrapper,
-div {
+.page-wrapper {
     background: transparent !important;
 }
 
-/* GARANTIR QUE NENHUM ELEMENTO HERDE FUNDO BRANCO */
 * {
     background-color: transparent !important;
 }
 
-/* REAPLICAR FUNDOS ESPECÍFICOS DO SEU DESIGN */
-.project-card,
-.skill-badge {
-    background: #ffffff !important;
-}
-
-.project-card:hover {
-    background: #fafafa !important;
-}
-
-/* ESTILO GERAL */
+/* TEXTO GLOBAL */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     line-height: 1.6 !important;
     margin: 0 auto !important;
     max-width: 900px !important;
     padding: 20px !important;
+    color: #2e3440 !important;
 }
 
 /* HEADER */
 .header-container {
-    text-align: left !important;
-    margin-top: 10px !important;
     margin-bottom: 35px !important;
 }
 
 .header-container h1 {
     font-size: 2.6rem !important;
     font-weight: 700 !important;
-    margin-bottom: 0 !important;
+    color: #0f2a44 !important;
 }
 
 .header-container h2 {
     font-size: 1.2rem !important;
     font-weight: 400 !important;
-    margin-top: 8px !important;
-    color: #777 !important;
+    color: #6b7280 !important;
+    margin-top: 6px !important;
 }
 
-/* TÍTULOS DE SEÇÃO */
-.section-title {
-    font-size: 1.8rem !important;
-    margin-top: 40px !important;
-    border-bottom: 2px solid #eaeaea !important;
-    padding-bottom: 4px !important;
+/* TÍTULOS */
+h1, h2, h3 {
+    color: #0f2a44 !important;
 }
 
 /* SKILLS */
@@ -91,17 +75,18 @@ body {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 12px !important;
-    margin-top: 10px !important;
 }
 
 .skill-badge {
     display: flex !important;
     align-items: center !important;
+    background: #f9fafb !important;
+    border: 1px solid #e5e7eb !important;
     padding: 8px 12px !important;
     border-radius: 8px !important;
-    font-size: 0.95rem !important;
     gap: 8px !important;
-    border: 1px solid #ddd !important;
+    color: #0f2a44 !important;
+    font-size: 0.95rem !important;
 }
 
 .skill-badge img {
@@ -109,41 +94,49 @@ body {
     height: 20px !important;
 }
 
-/* CARDS DE PROJETOS */
+/* CARDS */
 .project-card {
-    border: 1px solid #e0e0e0 !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    border-left: 5px solid #0f2a44 !important;
     border-radius: 10px !important;
     padding: 18px !important;
     margin-top: 18px !important;
-    transition: 0.2s ease-in-out !important;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+    box-shadow: 0 2px 8px rgba(15,42,68,0.05) !important;
+    transition: all 0.2s ease-in-out !important;
 }
 
 .project-card:hover {
-    transform: scale(1.01) !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.10) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(15,42,68,0.12) !important;
 }
 
 .project-title {
     font-size: 1.3rem !important;
-    margin-bottom: 6px !important;
+    color: #0f2a44 !important;
 }
 
 .project-tech {
     font-weight: 600 !important;
-    color: #444 !important;
+    color: #374151 !important;
+    font-size: 0.95rem !important;
 }
 
 .project-link {
     display: inline-block !important;
     margin-top: 8px !important;
-    color: #0366d6 !important;
+    color: #1f4fd8 !important;
     font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.project-link:hover {
+    text-decoration: underline !important;
 }
 
 </style>
 
-<!-- HEADER FINAL ESTILIZADO -->
+<!-- HEADER -->
 <div class="header-container">
   <h1>{{ page.title }}</h1>
   <h2>{{ page.subtitle }}</h2>
@@ -151,91 +144,25 @@ body {
 
 # 🧑‍💻 Sobre mim
 
-Meu nome é Welington Nogueira, sou graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Minha formação une rigor estatístico, pensamento analítico e aplicação de técnicas modernas de machine learning voltadas à solução de problemas de negócio.
+Sou **Cientista de Dados**, graduado em **Estatística pela Universidade Federal Fluminense (UFF)** e pós-graduado em **Análise de Dados, Data Mining e Inteligência Artificial pela FIA**. Atuo há anos com análise estatística, modelagem preditiva e inteligência analítica aplicadas a problemas reais.
 
-Atuo como Cientista de Dados, com experiência sólida nos setores público e de saúde, incluindo projetos estratégicos durante minha atuação na Força Aérea Brasileira. Nesse período, trabalhei com modelagem preditiva, inteligência analítica, governança de dados, análise multivariada, criação de KPIs institucionais e desenvolvimento de soluções que fortalecem a tomada de decisão no nível tático e estratégico.
-
-Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines automatizados em Python, R e SQL, além de estruturar processos que aumentaram eficiência operacional e confiabilidade informacional. Minha atuação integra domínio técnico, visão de negócio e comunicação clara, sempre com foco em transformar dados complexos em soluções práticas, interpretáveis e de impacto real, facilitando a ponte entre equipes técnicas e gestores.
+Tenho experiência sólida nos setores **público e de saúde**, incluindo projetos estratégicos desenvolvidos na **Força Aérea Brasileira**, com foco em governança de dados, indicadores institucionais, epidemiologia e apoio à tomada de decisão.
 
 ---
 
 # ⚙️ Skills
 
 <div class="skills-container">
-
   <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">Python</div>
-
   <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg">R</div>
-
   <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">SQL</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/color/48/amazon-web-services.png">AWS</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/color/48/power-bi.png">Power BI</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/combo-chart.png">Métricas de Negócio</div>
-
   <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg">Machine Learning</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/communication.png">Comunicação</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/idea.png">Criatividade</div>
-
   <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png">Trabalho em equipe</div>
-
-</div>
-
----
-
-# 📂 Projetos
-
-<div class="project-card">
-  <div class="project-title">🔍 Decisão de Compra (Análise Fatorial)</div>
-  <div class="project-tech">PCA · Análise Fatorial · Estatística Multivariada</div>
-  <p>Identificação de fatores latentes que influenciam decisões de compra.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">🎯 Análise RFM (Marketing Analytics)</div>
-  <div class="project-tech">Segmentação · Comportamento do Cliente</div>
-  <p>Criação de segmentos estratégicos para ações de marketing e retenção.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">👥 Clusterização de Clientes (K-Means)</div>
-  <div class="project-tech">K-Means · Elbow Method · Segmentação</div>
-  <p>Formação de grupos homogêneos de clientes para direcionamento comercial.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">✈️ Classificação de Ocorrências Aeronáuticas</div>
-  <div class="project-tech">Regressão Logística · Feature Engineering</div>
-  <p>Previsão da severidade de ocorrências com foco em segurança operacional.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">📊 EDA Multivariada</div>
-  <div class="project-tech">ANOVA · Correlação · Análise Exploratória</div>
-  <p>Exploração de interações entre variáveis e padrões multivariados.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">🌍 Expectativa de Vida (Regressão Linear Múltipla)</div>
-  <div class="project-tech">Regressão · Análise Global</div>
-  <p>Modelagem dos fatores socioeconômicos que influenciam a expectativa de vida.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb">Abrir Projeto →</a>
-</div>
-
-<div class="project-card">
-  <div class="project-title">🛡️ Fraudes com Criptomoedas (XGBoost)</div>
-  <div class="project-tech">XGBoost · Classificação · Detecção de Fraude</div>
-  <p>Modelo robusto para detecção de transações suspeitas em exchanges de cripto.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb">Abrir Projeto →</a>
 </div>
 
 ---
@@ -243,70 +170,32 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 # 🧩 Consultoria
 
 <div class="project-card">
-  <div class="project-title">📊 Perfil Materno e Desfechos Neonatais em Gêmeos no Brasil — SINASC</div>
-  <div class="project-tech">R · R Markdown · Estatística · Saúde Pública</div>
-  <p>
-    Descrever o perfil epidemiológico materno e os desfechos neonatais de gestações gemelares duplas no Brasil e por macrorregiões, entre 2017 e 2023, utilizando dados do Sistema de Informações sobre Nascidos Vivos (SINASC).
-  </p>
-  <a class="project-link"
-     href="https://welinog-est.github.io/portfolio-welinog/consultoria/SINASC/"
-     target="_blank">
-     Abrir visualização →
-  </a>
+  <div class="project-title">📊 Perfil Materno e Desfechos Neonatais — SINASC</div>
+  <div class="project-tech">R · Estatística · Saúde Pública</div>
+  <p>Análise epidemiológica de gestações gemelares no Brasil (2017–2023) com dados do SINASC.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/SINASC/" target="_blank">Abrir visualização →</a>
 </div>
 
 <div class="project-card">
   <div class="project-title">🩺 Diabetes e Fatores Associados — PNS</div>
-  <div class="project-tech">
-    R · R Markdown · Estatística · Regressão · Saúde Pública
-  </div>
-  <p>
-    Análise dos fatores sociodemográficos, comportamentais e clínicos associados
-    ao diagnóstico de diabetes mellitus no Brasil, utilizando dados da
-    Pesquisa Nacional de Saúde (PNS). O estudo explora associações estatísticas
-    e modelos explicativos para apoiar políticas públicas em saúde.
-  </p>
-  <a class="project-link"
-     href="https://welinog-est.github.io/portfolio-welinog/consultoria/PNS_diabetes/"
-     target="_blank">
-     Abrir visualização →
-  </a>
+  <div class="project-tech">R · Regressão Logística · Saúde Pública</div>
+  <p>Análise dos fatores associados ao diagnóstico de diabetes no Brasil usando dados da PNS.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/PNS_diabetes/" target="_blank">Abrir visualização →</a>
 </div>
 
 <div class="project-card">
   <div class="project-title">🩸 Anemia e Fatores Associados em Indígenas</div>
-  <div class="project-tech">
-    R · R Markdown · Estatística · Epidemiologia · Regressão
-  </div>
-  <p>
-    Análise da ocorrência de anemia e de fatores associados entre adultos indígenas Xavante, 
-    com base em estudo transversal realizado no Mato Grosso (2011), utilizando dados 
-    coletados em campo por equipe de pesquisadores treinados.
-  </p>
-  <a class="project-link"
-     href="https://welinog-est.github.io/portfolio-welinog/consultoria/anemia_xavante/"
-     target="_blank">
-     Abrir visualização →
-  </a>
+  <div class="project-tech">R · Epidemiologia · Regressão</div>
+  <p>Estudo transversal sobre anemia e fatores associados entre adultos indígenas Xavante.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/anemia_xavante/" target="_blank">Abrir visualização →</a>
 </div>
 
 <div class="project-card">
   <div class="project-title">🏥 Internações e Fatores Associados</div>
-  <div class="project-tech">
-    R · R Markdown · Estatística · Epidemiologia · Saúde Pública
-  </div>
-  <p>
-    Análise do perfil de internações e de fatores associados, com aplicação de 
-      testes de independência e ajuste de modelo de regressão logística para 
-      identificar variáveis relacionadas aos desfechos de interesse em saúde pública.
-  </p>
-  <a class="project-link"
-     href="https://welinog-est.github.io/portfolio-welinog/consultoria/internacao/"
-     target="_blank">
-     Abrir visualização →
-  </a>
+  <div class="project-tech">R · Estatística · Qui-Quadrado + V de Crammer</div>
+  <p>Análise de internações com testes de independência e regressão logística para identificação de fatores associados.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/internacao/" target="_blank">Abrir visualização →</a>
 </div>
-
 
 ---
 
@@ -315,6 +204,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
