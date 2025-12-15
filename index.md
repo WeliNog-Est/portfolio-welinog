@@ -65,7 +65,7 @@ body {
     margin-bottom: 10px;
     font-size: 1.15rem;      
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.85);          
+    color: #f1f5f9;          
     letter-spacing: 0.3px;
 }
 
@@ -278,49 +278,49 @@ Atuo com estatística aplicada, machine learning, governança de dados e indicad
   <div class="project-title">🔍 Decisão de Compra (Análise Fatorial)</div>
   <div class="project-tech">PCA · Análise Fatorial</div>
   <p>Identificação de fatores latentes que influenciam decisões de compra.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ds">
   <div class="project-title">🎯 Análise RFM</div>
   <div class="project-tech">Marketing Analytics</div>
   <p>Segmentação estratégica de clientes para retenção.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ml ds">
   <div class="project-title">👥 Clusterização de Clientes</div>
   <div class="project-tech">K-Means</div>
   <p>Formação de grupos homogêneos de clientes.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ml ds">
   <div class="project-title">✈️ Ocorrências Aeronáuticas</div>
   <div class="project-tech">Regressão Logística</div>
   <p>Classificação da severidade de ocorrências.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ds">
   <div class="project-title">📊 EDA Multivariada</div>
   <div class="project-tech">Análise Exploratória</div>
   <p>Exploração de padrões multivariados.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ds">
   <div class="project-title">🌍 Expectativa de Vida</div>
   <div class="project-tech">Regressão Linear Múltipla</div>
   <p>Modelagem de fatores socioeconômicos.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb" target="_blank">Abrir →</a>
 </div>
 
 <div class="project-card" data-category="ml ds">
   <div class="project-title">🛡️ Fraudes com Criptomoedas</div>
   <div class="project-tech">XGBoost</div>
   <p>Detecção de fraudes em transações financeiras.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb">Abrir →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb" target="_blank">Abrir →</a>
 </div>
 
 ---
@@ -385,6 +385,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
