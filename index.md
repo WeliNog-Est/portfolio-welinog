@@ -6,7 +6,7 @@ subtitle: Portfólio de Projetos por Welington Nogueira
 
 <style>
 
-/* REMOVER TÍTULO PADRÃO DO TEMA MINIMA */
+/* ================= RESET TEMA ================= */
 .page-header,
 .post-header,
 .post-header h1,
@@ -14,13 +14,10 @@ subtitle: Portfólio de Projetos por Welington Nogueira
     display: none !important;
 }
 
-/* FUNDO GLOBAL */
 html, body {
     background: #f7f7f7 !important;
-    background-color: #f7f7f7 !important;
 }
 
-/* LIMPAR FUNDOS DO TEMA */
 .wrapper,
 .site,
 .site-header,
@@ -37,7 +34,7 @@ html, body {
     background-color: transparent !important;
 }
 
-/* TEXTO GLOBAL */
+/* ================= BASE ================= */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     line-height: 1.6 !important;
@@ -47,11 +44,30 @@ body {
     color: #2e3440 !important;
 }
 
-/* HEADER */
-.header-container {
-    margin-bottom: 35px !important;
+/* ================= HERO ================= */
+.hero {
+    background: linear-gradient(135deg, #0f2a44, #1e3a5f);
+    color: #ffffff;
+    padding: 36px 32px;
+    border-radius: 14px;
+    margin-bottom: 40px;
 }
 
+.hero h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.05rem;
+    color: #e5e7eb;
+    line-height: 1.5;
+}
+
+/* ================= HEADER ================= */
 .header-container h1 {
     font-size: 2.6rem !important;
     font-weight: 700 !important;
@@ -62,15 +78,38 @@ body {
     font-size: 1.2rem !important;
     font-weight: 400 !important;
     color: #6b7280 !important;
-    margin-top: 6px !important;
 }
 
-/* TÍTULOS */
+/* ================= TITULOS ================= */
 h1, h2, h3 {
     color: #0f2a44 !important;
 }
 
-/* SKILLS */
+/* ================= FILTROS ================= */
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.filter-btn {
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #0f2a44;
+}
+
+.filter-btn.active {
+    background: #0f2a44;
+    color: #ffffff;
+    border-color: #0f2a44;
+}
+
+/* ================= SKILLS ================= */
 .skills-container {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -89,12 +128,7 @@ h1, h2, h3 {
     font-size: 0.95rem !important;
 }
 
-.skill-badge img {
-    width: 20px !important;
-    height: 20px !important;
-}
-
-/* CARDS */
+/* ================= CARDS ================= */
 .project-card {
     background: #ffffff !important;
     border: 1px solid #e5e7eb !important;
@@ -123,8 +157,6 @@ h1, h2, h3 {
 }
 
 .project-link {
-    display: inline-block !important;
-    margin-top: 8px !important;
     color: #1f4fd8 !important;
     font-weight: bold !important;
     text-decoration: none !important;
@@ -136,7 +168,16 @@ h1, h2, h3 {
 
 </style>
 
-<!-- HEADER -->
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <h1>Cientista de Dados</h1>
+  <p>
+    Estatística • Machine Learning • Saúde Pública • Analytics Estratégico<br>
+    Transformo dados complexos em decisões claras e acionáveis.
+  </p>
+</div>
+
+<!-- ================= HEADER ================= -->
 <div class="header-container">
   <h1>{{ page.title }}</h1>
   <h2>{{ page.subtitle }}</h2>
@@ -144,133 +185,151 @@ h1, h2, h3 {
 
 # 🧑‍💻 Sobre mim
 
-Sou Cientista de Dados, graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA. Atuo há anos com análise estatística, modelagem preditiva e inteligência analítica aplicadas a problemas reais.
-
-Tenho experiência sólida nos setores público e de saúde, incluindo projetos estratégicos desenvolvidos na Força Aérea Brasileira, com foco em governança de dados, indicadores institucionais, epidemiologia e apoio à tomada de decisão.
+Sou Cientista de Dados, graduado em Estatística pela Universidade Federal Fluminense (UFF) e pós-graduado em Análise de Dados, Data Mining e Inteligência Artificial pela FIA.  
+Atuo com estatística aplicada, machine learning, governança de dados e indicadores estratégicos, com forte experiência nos setores público e de saúde, incluindo projetos desenvolvidos na Força Aérea Brasileira e Consultorias.
 
 ---
 
 # ⚙️ Skills
 
 <div class="skills-container">
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">Python</div>
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg">R</div>
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">SQL</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/color/48/amazon-web-services.png">AWS</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/color/48/power-bi.png">Power BI</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/combo-chart.png">Métricas de Negócio</div>
-  <div class="skill-badge"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg">Machine Learning</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/communication.png">Comunicação</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/idea.png">Criatividade</div>
-  <div class="skill-badge"><img src="https://img.icons8.com/ios-filled/50/000000/conference-call.png">Trabalho em equipe</div>
+  <div class="skill-badge">Python</div>
+  <div class="skill-badge">R</div>
+  <div class="skill-badge">SQL</div>
+  <div class="skill-badge">AWS</div>
+  <div class="skill-badge">Power BI</div>
+  <div class="skill-badge">Machine Learning</div>
+  <div class="skill-badge">Estatística Aplicada</div>
+  <div class="skill-badge">Métricas de Negócio</div>
+</div>
+
+---
+
+# 🗂 Navegação por tipo de projeto
+
+<div class="filters">
+  <button class="filter-btn active" data-filter="all">Todos</button>
+  <button class="filter-btn" data-filter="ds">Data Science</button>
+  <button class="filter-btn" data-filter="ml">Machine Learning</button>
+  <button class="filter-btn" data-filter="saude">Saúde Pública</button>
+  <button class="filter-btn" data-filter="consultoria">Consultoria</button>
 </div>
 
 ---
 
 # 📂 Projetos
 
-<div class="project-card">
+<div class="project-card" data-category="ds">
   <div class="project-title">🔍 Decisão de Compra (Análise Fatorial)</div>
   <div class="project-tech">PCA · Análise Fatorial</div>
   <p>Identificação de fatores latentes que influenciam decisões de compra.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Decisão%20de%20compra%20(Análise%20Fatorial)/decisao_analise_fatorial.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ds">
   <div class="project-title">🎯 Análise RFM</div>
   <div class="project-tech">Marketing Analytics</div>
   <p>Segmentação estratégica de clientes para retenção.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Análise%20RFM_Marketing/analise_rfm.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ml ds">
   <div class="project-title">👥 Clusterização de Clientes</div>
   <div class="project-tech">K-Means</div>
   <p>Formação de grupos homogêneos de clientes.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Agrupamento%20de%20Clientes%20(K-Means)/grupos_kmeans.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ml ds">
   <div class="project-title">✈️ Ocorrências Aeronáuticas</div>
   <div class="project-tech">Regressão Logística</div>
-  <p>Classificação de severidade de ocorrências.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb">Abrir projeto →</a>
+  <p>Classificação da severidade de ocorrências.</p>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Classificação%20de%20Ocorrência%20Aeronáutica%20(Regressão%20Logística)/classificacao_ocorrencia_aeronautica.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ds">
   <div class="project-title">📊 EDA Multivariada</div>
   <div class="project-tech">Análise Exploratória</div>
   <p>Exploração de padrões multivariados.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/EDA%20Banco%20Multivarido/eda_multivariada.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ds">
   <div class="project-title">🌍 Expectativa de Vida</div>
   <div class="project-tech">Regressão Linear Múltipla</div>
   <p>Modelagem de fatores socioeconômicos.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Expectativa%20de%20Vida%20(Regressão%20Linear%20Múltipla)/regressao_linear_multipla.ipynb">Abrir →</a>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="ml ds">
   <div class="project-title">🛡️ Fraudes com Criptomoedas</div>
   <div class="project-tech">XGBoost</div>
   <p>Detecção de fraudes em transações financeiras.</p>
-  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb">Abrir projeto →</a>
+  <a class="project-link" href="https://nbviewer.org/github/WeliNog-Est/portfolio-welinog/raw/main/projetos/Fraudes%20de%20Criptomoedas%20(XGBoost)/fraudes_cripto_xgboost.ipynb">Abrir →</a>
 </div>
 
 ---
 
 # 🧩 Consultoria
 
-<div class="project-card">
-  <div class="project-title">📊 Perfil Materno e Desfechos Neonatais — SINASC</div>
-  <div class="project-tech">R · Estatística · Saúde Pública</div>
-  <p>Análise epidemiológica de gestações gemelares no Brasil (2017–2023) com dados do SINASC.</p>
-  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/SINASC/" target="_blank">Abrir visualização →</a>
+<div class="project-card" data-category="consultoria saude">
+  <div class="project-title">📊 SINASC — Saúde Pública</div>
+  <div class="project-tech">Epidemiologia</div>
+  <p>Análise de gestações gemelares no Brasil.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/SINASC/" target="_blank">Abrir →</a>
 </div>
 
-<div class="project-card">
-  <div class="project-title">🩺 Diabetes e Fatores Associados — PNS</div>
-  <div class="project-tech">R · Regressão Logística · Saúde Pública</div>
-  <p>Análise dos fatores associados ao diagnóstico de diabetes no Brasil usando dados da PNS.</p>
-  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/PNS_diabetes/" target="_blank">Abrir visualização →</a>
+<div class="project-card" data-category="consultoria saude">
+  <div class="project-title">🩺 Diabetes — PNS</div>
+  <div class="project-tech">Regressão Logística</div>
+  <p>Fatores associados ao diabetes no Brasil.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/PNS_diabetes/" target="_blank">Abrir →</a>
 </div>
 
-<div class="project-card">
-  <div class="project-title">🩸 Anemia e Fatores Associados em Indígenas</div>
-  <div class="project-tech">R · Epidemiologia · Regressão</div>
-  <p>Estudo transversal sobre anemia e fatores associados entre adultos indígenas Xavante.</p>
-  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/anemia_xavante/" target="_blank">Abrir visualização →</a>
+<div class="project-card" data-category="consultoria saude">
+  <div class="project-title">🩸 Anemia em Indígenas Xavante</div>
+  <div class="project-tech">Epidemiologia</div>
+  <p>Estudo transversal sobre anemia.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/anemia_xavante/" target="_blank">Abrir →</a>
 </div>
 
-<div class="project-card">
-  <div class="project-title">🏥 Internações e Fatores Associados</div>
-  <div class="project-tech">R · Estatística · Qui-Quadrado + V de Crammer</div>
-  <p>Análise de internações com testes de independência e regressão logística para identificação de fatores associados.</p>
-  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/internacao/" target="_blank">Abrir visualização →</a>
+<div class="project-card" data-category="consultoria saude">
+  <div class="project-title">🏥 Internações</div>
+  <div class="project-tech">Testes de Independência · Regressão</div>
+  <p>Análise estatística de fatores associados.</p>
+  <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/internacao/" target="_blank">Abrir →</a>
 </div>
 
 ---
 
 # 📫 Contato
 
-📧 <strong>nogueiraswns@gmail.com</strong><br>
-🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
-💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+📧 **nogueiraswns@gmail.com**  
+🔗 <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">LinkedIn</a>  
+💻 <a href="https://github.com/WeliNog-Est" target="_blank">GitHub</a>
 
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.project-card');
 
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
 
+    const filter = btn.dataset.filter;
 
-
-
-
-
-
-
-
-
-
-
+    cards.forEach(card => {
+      if (filter === 'all') {
+        card.style.display = 'block';
+      } else {
+        const categories = card.dataset.category || '';
+        card.style.display = categories.includes(filter) ? 'block' : 'none';
+      }
+    });
+  });
+});
+</script>
 
 
 
