@@ -128,6 +128,14 @@ h1, h2, h3 {
     font-size: 0.95rem !important;
 }
 
+/* TAMANHO DOS ÍCONES */
+.skill-badge img {
+    width: 18px !important;
+    height: 18px !important;
+    object-fit: contain !important;
+    flex-shrink: 0 !important;
+}
+
 /* ================= CARDS ================= */
 .project-card {
     background: #ffffff !important;
@@ -171,6 +179,7 @@ h1, h2, h3 {
 <!-- ================= HERO ================= -->
 <div class="hero">
   <h1>Cientista de Dados</h1>
+  <h2>Portfólio de Projetos por Welington Nogueira</h2>
   <p>
     Estatística • Machine Learning • Saúde Pública • Analytics Estratégico<br>
     Transformo dados complexos em decisões claras e acionáveis.
@@ -367,6 +376,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
