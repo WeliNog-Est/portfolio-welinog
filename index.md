@@ -65,7 +65,7 @@ body {
     margin-bottom: 10px;
     font-size: 1.15rem;      
     font-weight: 400;
-    color: #d1d5db;          
+    color: rgba(255, 255, 255, 0.85);          
     letter-spacing: 0.3px;
 }
 
@@ -385,6 +385,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
