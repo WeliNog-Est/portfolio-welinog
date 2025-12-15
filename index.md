@@ -189,9 +189,8 @@ h1, h2, h3 {
 <div class="hero">
   <h1>Cientista de Dados</h1>
   <p>
-    Machine Learning & Modelagem Preditiva | Python • SQL • Governança de Dados • Power BI<br>
-    Transformo dados complexos em decisões claras e acionáveis.
-  </p>
+    Machine Learning & Modelagem Preditiva | Estatística Aplicada • Governança de Dados • Python • SQL • KPIs • Power BI<br>
+    </p>
 </div>
 
 <div class="portfolio-subtitle">
@@ -389,6 +388,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
