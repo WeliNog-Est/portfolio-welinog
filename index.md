@@ -60,20 +60,20 @@ body {
     color: #ffffff !important;
 }
     
-.hero h2 {
-    margin-top: 6px;
-    margin-bottom: 10px;
-    font-size: 1.15rem;      
-    font-weight: 400;
-    color: #f1f5f9;          
-    letter-spacing: 0.3px;
-}
-
 .hero p {
     margin-top: 10px;
     font-size: 1.05rem;
     color: #e5e7eb;
     line-height: 1.5;
+}
+    
+/* ================= SUBTÍTULO FORA DO BANNER ================= */
+.portfolio-subtitle {
+    margin-top: 12px;
+    margin-bottom: 36px;
+    font-size: 0.95rem;
+    color: #6b7280;
+    letter-spacing: 0.3px;
 }
 
 /* ================= HEADER ================= */
@@ -188,12 +188,16 @@ h1, h2, h3 {
 <!-- ================= HERO ================= -->
 <div class="hero">
   <h1>Cientista de Dados</h1>
-  <h2>Portfólio de Projetos por Welington Nogueira</h2>
   <p>
     Estatística • Machine Learning • Saúde Pública • Analytics Estratégico<br>
     Transformo dados complexos em decisões claras e acionáveis.
   </p>
 </div>
+
+<div class="portfolio-subtitle">
+  Portfólio de Projetos por <strong>Welington Nogueira</strong>
+</div>
+
 
 # 🧑‍💻 Sobre mim
 
@@ -385,6 +389,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
