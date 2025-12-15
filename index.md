@@ -243,7 +243,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 # 🧩 Consultoria
 
 <div class="project-card">
-  <div class="project-title">📊 Perfil materno e desfechos neonatais em gêmeos no Brasil — SINASC</div>
+  <div class="project-title">📊 Perfil Materno e Desfechos Neonatais em Gêmeos no Brasil — SINASC</div>
   <div class="project-tech">R · R Markdown · Estatística · Saúde Pública</div>
   <p>
     Descrever o perfil epidemiológico materno e os desfechos neonatais de gestações gemelares duplas no Brasil e por macrorregiões, entre 2017 e 2023, utilizando dados do Sistema de Informações sobre Nascidos Vivos (SINASC).
@@ -297,6 +297,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
