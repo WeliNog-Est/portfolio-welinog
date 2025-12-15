@@ -59,6 +59,15 @@ body {
     font-weight: 700;
     color: #ffffff !important;
 }
+    
+.hero h2 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 1.15rem;      
+    font-weight: 400;
+    color: #d1d5db;          
+    letter-spacing: 0.3px;
+}
 
 .hero p {
     margin-top: 10px;
@@ -376,6 +385,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
