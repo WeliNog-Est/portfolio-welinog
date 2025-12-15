@@ -274,14 +274,14 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 </div>
 
 <div class="project-card">
-  <div class="project-title">🩸 Anemia e Fatores Associados em Indígenas/div>
+  <div class="project-title">🩸 Anemia e Fatores Associados em Indígenas</div>
   <div class="project-tech">
     R · R Markdown · Estatística · Epidemiologia · Regressão
   </div>
   <p>
     Análise da ocorrência de anemia e de fatores associados entre adultos indígenas Xavante, 
-      com base em estudo transversal realizado no Mato Grosso (2011), utilizando dados 
-      coletados em campo por equipe de pesquisadores treinados.
+    com base em estudo transversal realizado no Mato Grosso (2011), utilizando dados 
+    coletados em campo por equipe de pesquisadores treinados.
   </p>
   <a class="project-link"
      href="https://welinog-est.github.io/portfolio-welinog/consultoria/anemia_xavante/"
@@ -297,6 +297,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
