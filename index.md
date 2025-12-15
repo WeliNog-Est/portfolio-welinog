@@ -290,6 +290,24 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
   </a>
 </div>
 
+<div class="project-card">
+  <div class="project-title">🏥 Internações e Fatores Associados</div>
+  <div class="project-tech">
+    R · R Markdown · Estatística · Epidemiologia · Saúde Pública
+  </div>
+  <p>
+    Análise do perfil de internações e de fatores associados, com aplicação de 
+      testes de independência e ajuste de modelo de regressão logística para 
+      identificar variáveis relacionadas aos desfechos de interesse em saúde pública.
+  </p>
+  <a class="project-link"
+     href="https://welinog-est.github.io/portfolio-welinog/consultoria/internacao/"
+     target="_blank">
+     Abrir visualização →
+  </a>
+</div>
+
+
 ---
 
 # 📫 Contato
@@ -297,6 +315,7 @@ Desenvolvi modelos estatísticos e preditivos, dashboards executivos, pipelines 
 📧 <strong>nogueiraswns@gmail.com</strong><br>
 🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/welington-n-99484571/" target="_blank">linkedin.com/in/welington-n-99484571</a><br>
 💻 <strong>GitHub:</strong> <a href="https://github.com/WeliNog-Est" target="_blank">github.com/WeliNog-Est</a>
+
 
 
 
