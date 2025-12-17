@@ -330,13 +330,14 @@ Atuo com estatística aplicada, machine learning, governança de dados e indicad
 
 # 🧩 Consultoria
 
+<!--
 <div class="project-card" data-category="consultoria saude">
   <div class="project-title">📊 SINASC — Saúde Pública</div>
   <div class="project-tech">Epidemiologia</div>
   <p>Análise de gestações gemelares no Brasil.</p>
   <a class="project-link" href="https://welinog-est.github.io/portfolio-welinog/consultoria/SINASC/" target="_blank">Abrir →</a>
 </div>
-
+-->
 <div class="project-card" data-category="consultoria saude">
   <div class="project-title">🩺 Diabetes — PNS</div>
   <div class="project-tech">Regressão Logística</div>
@@ -388,6 +389,7 @@ buttons.forEach(btn => {
   });
 });
 </script>
+
 
 
 
